@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <div class="calculator">
+        <h1>Calculadora de Fórmulas</h1>
+        <div class="inputs">
+            <label for="n1">Primeiro número (seno):</label>
+            <input name="n1" id="n1" type="number" />
+            
+            <label for="n2">Segundo número (cosseno):</label>
+            <input id="n2" type="number" />
+            
+            <label for="n3">Terceiro número (tangente):</label>
+            <input id="n3" type="number" />
+        </div>
+        <div class="buttons">
+            <button onclick="somar()">Somar</button>
+            <button onclick="subtrair()">Subtrair</button>
+            <button onclick="multiplicar()">Multiplicar</button>
+            <button onclick="dividir()">Dividir</button>
+            <button onclick="quadrado()">Área do Quadrado</button>
+            <button onclick="retangulo()">Área do Retângulo</button>
+            <button onclick="trapezio()">Área do Trapézio</button>
+            <button onclick="losango()">Área do Losango</button>
+            <button onclick="trianguloRetangulo()">Área do Triângulo Retângulo</button>
+            <button onclick="trianguloEquilatero()">Área do Triângulo Equilátero</button>
+            <button onclick="circunferencia()">Área da Circunferência</button>
+            <button onclick="seno()">Seno</button>
+            <button onclick="coseno()">Cosseno</button>
+            <button onclick="tangente()">Tangente</button>
+            <button onclick="transformacaoGrausRadianos()">Transformação de Graus para Radianos</button>
+            <button onclick="teoremaPitagoras()">Teorema de Pitágoras</button>
+        </div>
+        <div class="result">
+            <h2>Resultado: <span id="resultado"></span></h2>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
